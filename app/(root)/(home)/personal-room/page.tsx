@@ -53,7 +53,7 @@ const PersonalRoom = () => {
     router.push(`/meeting/${meetingId}?personal=true`);
   };
 
-  const meetingLink = `evtechmcmeet.ddns.net/meeting/${meetingId}?personal=true`;
+  const meetingLink = `https://evtechmcmeet.ddns.net/meeting/${meetingId}?personal=true`;
 
   return (
     <section className="flex size-full flex-col gap-10 text-white">
